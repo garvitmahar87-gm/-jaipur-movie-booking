@@ -1,0 +1,37 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jaipur Movie Tickets</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #0f172a; color: white; }
+    header { background: #1e293b; padding: 15px; text-align: center; font-size: 24px; }
+    .container { padding: 20px; }
+    .movie { background: #1e293b; margin: 15px 0; padding: 15px; border-radius: 10px; }
+    button { background: #22c55e; border: none; padding: 10px 15px; color: white; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #16a34a; }
+  </style>
+</head>
+<body><header>🎬 Jaipur Movie Ticket Booking</header><div class="container">
+  <div class="movie">
+    <h2>Pathaan</h2>
+    <p>Location: Jaipur Multiplex</p>
+    <p>Time: 6:00 PM</p>
+    <button onclick="bookTicket('Pathaan')">Book Ticket</button>
+  </div>  <div class="movie">
+    <h2>Jawan</h2>
+    <p>Location: Jaipur Cinema City</p>
+    <p>Time: 9:00 PM</p>
+    <button onclick="bookTicket('Jawan')">Book Ticket</button>
+  </div>  <div class="movie">
+    <h2>Animal</h2>
+    <p>Location: Pink Square Mall</p>
+    <p>Time: 4:00 PM</p>
+    <button onclick="bookTicket('Animal')">Book Ticket</button>
+  </div>
+</div><script>
+  function bookTicket(movie) {
+    alert('Ticket booked for ' + movie + ' in Jaipur!');
+  }
+</script></body>
+</html>
